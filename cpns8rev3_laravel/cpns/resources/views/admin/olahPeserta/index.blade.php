@@ -58,6 +58,8 @@
                       <?php $no = 1;?>
                       @foreach($data as $d)
                       <tr>
+                        <td>
+</td>
                           <td>{{$no++}}</td>
                           <td>{{sprintf('D'.'%04d', $d->kode_peserta)}}</td>
                           <td>{{$d->nama_peserta}}</td>
