@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cetak Ranking</title>
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="http://127.0.0.1:8000/assets/plugins/fontawesome-free/css/all.min.css">
+<!-- Ionicons -->
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<!-- overlayScrollbars -->
+<link rel="stylesheet" href="http://127.0.0.1:8000/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+<!-- Theme style -->
+<link rel="stylesheet" href="http://127.0.0.1:8000/assets/dist/css/adminlte.min.css">
+<!-- DataTables -->
+<link rel="stylesheet" href="http://127.0.0.1:8000/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+<!-- Google Font: Source Sans Pro -->
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body>
+  <div class="content-wrapper">
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <!-- Default box -->
+            <div class="card">
+              <div class="card-header">
+                Ranking Tryout SKD
+              </div>
+              <div class="card-body">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>No</th>
+                        <th>Nama Peserta</th>
+                        <th>TWK</th>
+                        <th>TIU</th>
+                        <th>TKP</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                                                                  <tr>
+                        <td>1</td>
+                        <td>Safikul Islam</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>
+                                                      Tidak Lulus
+                                                  </td>
+                      </tr>
+                                          </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- jQuery -->
+<script src="http://127.0.0.1:8000/assets/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="http://127.0.0.1:8000/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="http://127.0.0.1:8000/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- ChartJS -->
+<script src="http://127.0.0.1:8000/assets/plugins/chart.js/Chart.min.js"></script>
+<!-- AdminLTE App -->
+<script src="http://127.0.0.1:8000/assets/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="http://127.0.0.1:8000/assets/dist/js/demo.js"></script>
+<!-- DataTables -->
+<script src="http://127.0.0.1:8000/assets/plugins/datatables/jquery.dataTables.js"></script>
+<script src="http://127.0.0.1:8000/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+<!-- page script -->
+<script>
+  $(function () {
+    $("#example1").DataTable();
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+    });
+  });
+</script>
+</body>
+</html>

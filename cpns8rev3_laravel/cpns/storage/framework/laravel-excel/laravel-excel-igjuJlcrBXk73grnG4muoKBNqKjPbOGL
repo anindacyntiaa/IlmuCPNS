@@ -1,0 +1,15 @@
+Perhatian!!!;;;;;;;;;
+"Untuk Kategori, mohon diisi dengan id kategori";;;;;;;;;
+;;;;;;;;;
+id kategori;nama Kategori;;"Mohon untuk copy paste soal, gunakan paste spesial dan pilih yang values";;;;;;
+1;Tes Wawasan Kebangsaan;;;;;;;;
+2;Tes Intelegensi Umum;;;;;;;;
+3;Tes Karakteristik Pribadi;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+id_kategori;soal;j1;j2;j3;j4;j5;kunci;skor;pembahasan
+1;"Setiap tanggal 17 Agustus, rakyat Indonesia selalu merayakan Hari Kemerdekaan sebagai hari besar nasional. Kegiatan seperti ini termasuk dalam kapabilitas sistem politik …";Regultif;Responsif;Simbolik;Ekstraktif;Normatif;Simbolik;5;"Kemampuan membangun pencitraan atau juga rasa bangga terhadap negaranya. Adapun:
+- regulatif sifatnya pengaturan sehingga mampu mengontrol dan mengendalikan.
+- responsif adalah kemampuan sistem politik menanggapi berbagai persoalan.
+- ekstraktif terkait dengan kemampuan sistem politik mengelola sumber-sumber SDA dan
+SDM."
