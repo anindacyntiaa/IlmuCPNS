@@ -27,7 +27,7 @@
       <td>{{$rank->hasil_total}}</td>
       <td>
         @php
-        if($rank->hasil_total >= 311 && $hasil->hasil_twk >= 65 && $hasil->hasil_tiu >= 80 && $hasil->hasil_tkp >= 166){echo "Lulus";}
+        if($rank->hasil_total >= 311 && $rank->hasil_twk >= 65 && $rank->hasil_tiu >= 80 && $rank->hasil_tkp >= 166){echo "Lulus";}
         else{echo "Tidak Lulus";}
         @endphp
       </td>

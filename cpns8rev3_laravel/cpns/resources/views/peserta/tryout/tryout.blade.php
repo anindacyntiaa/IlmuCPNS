@@ -69,7 +69,7 @@
                           <button type="submit" name="action" value="simpan" class="btn btn-secondary btn-sm">Simpan</button>
                         @else
                           <button type="submit" name="action" value="save" class="btn btn-primary btn-sm  mr-3">Selesai Ujian</button>
-                          <button type="submit" name="action" value="next" class="btn btn-secondary btn-sm">Simpan dan Lanjutkan</button>
+                          <button type="submit" name="action" value="next" class="btn btn-btn-primary btn-sm">Simpan dan Lanjutkan</button>
                         @endif
                       </div>
                     </div>

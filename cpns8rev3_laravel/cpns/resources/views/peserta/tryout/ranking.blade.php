@@ -22,7 +22,7 @@
             <!-- Default box -->
             <div class="card">
               <div class="card-header text-right">
-                <a href="{{url('tryout/cetakRanking')}}" class="btn btn-secondary btn-sm">Download Ranking</a>
+                <a href="{{url('tryout/cetakRanking')}}" class="btn btn-primary btn-sm">Download Ranking</a>
               </div>
               <div class="card-body">
                 <table class="table table-bordered table-sm" id="example1">
