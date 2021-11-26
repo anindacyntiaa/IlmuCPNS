@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Verifikasi Email</title>
+  <title>Resend Verifikasi</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,7 +23,7 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <h4 class="login-box-msg"><b>Verifikasi Email</b></h4>
+      <h4 class="login-box-msg"><b>Resend Code</b></h4>
       @if (Session::has('message'))
         <div class="alert alert-success" role="alert">
         {{ Session::get('message') }}
@@ -34,17 +34,14 @@
         {{ Session::get('error') }}
         </div>
       @endif
-      <form action="{{url('/postVerifikasi')}}" method="post">
+      <form action="{{url('/resendVerifikasi')}}" method="post">
       {{csrf_field()}}
         <div class="form-group mb-3">
-          <label for="">Kode OTP</label>
-          <input type="text" class="form-control text-center" name="kodeOtp" placeholder="Masukkan Kode OTP">
-        </div>
-        <div class="row text-center">
-          <p><a href="{{url('/resend')}}">Resend Code</a></p>
+          <label for="">Email Terdaftar</label>
+          <input type="text" class="form-control text-center" name="email" placeholder="Masukkan Email Terdaftar">
         </div>
         <div class="row">
-            <button type="submit" class="btn btn-primary btn-block">Verifikasi</button>
+            <button type="submit" class="btn btn-primary btn-block">Resend</button>
         </div>
       </form>
     </div>

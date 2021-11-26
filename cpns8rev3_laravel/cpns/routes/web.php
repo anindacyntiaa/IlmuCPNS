@@ -22,6 +22,8 @@ Route::post('/postLogin', 'Peserta\LoginController@aksi_login');
 Route::get('/logout', 'Peserta\LoginController@logout');
 
 Route::get('/verifikasi', 'Peserta\VerifikasiController@index');
+Route::get('/resend', 'Peserta\VerifikasiController@resend');
+Route::post('/resendVerifikasi', 'Peserta\VerifikasiController@resendVerifikasi');
 Route::post('/postVerifikasi', 'Peserta\VerifikasiController@postVerifikasi');
 
 Route::get('/reset', 'Peserta\ResetController@index');
